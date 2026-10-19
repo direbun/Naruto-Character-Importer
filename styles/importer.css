@@ -1,0 +1,14 @@
+.shinobi-forge-import-button {
+  flex: 1 1 100%;
+  margin: 4px;
+}
+
+.shinobi-forge-import-form code {
+  user-select: all;
+}
+
+.shinobi-forge-import-form .hint {
+  margin: 4px 0 0;
+  color: var(--color-text-dark-secondary, #666);
+  font-size: var(--font-size-12, 12px);
+}

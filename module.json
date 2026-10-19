@@ -1,0 +1,38 @@
+{
+  "id": "shinobi-forge-importer",
+  "title": "Shinobi Forge Importer",
+  "description": "Imports Shinobi Forge characters and Shinobi Enemy Forge adversaries into the N5eB system.",
+  "version": "0.3.1",
+  "url": "https://github.com/direbun/Naruto-Character-Importer",
+  "readme": "https://github.com/direbun/Naruto-Character-Importer/blob/main/README.md",
+  "bugs": "https://github.com/direbun/Naruto-Character-Importer/issues",
+  "changelog": "https://github.com/direbun/Naruto-Character-Importer/blob/main/CHANGELOG.md",
+  "manifest": "https://raw.githubusercontent.com/direbun/Naruto-Character-Importer/main/module.json",
+  "download": "https://github.com/direbun/Naruto-Character-Importer/releases/download/v0.3.1/module.zip",
+  "authors": [
+    {
+      "name": "Shinobi Forge"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "n5eb",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.1.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/importer.mjs"
+  ],
+  "styles": [
+    "styles/importer.css"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "format": "threat-forge",
+  "version": 1,
+  "enemy": {
+    "id": "foundry-enemy-smoke-test",
+    "name": "Enemy Forge Import Test",
+    "concept": "A fast Aburame caster used to verify Foundry imports.",
+    "size": "Medium",
+    "level": 5,
+    "enemyClass": "Elite",
+    "rank": "C-Rank",
+    "role": "Caster (Ninjutsu)",
+    "clan": "Aburame",
+    "affiliation": "Hidden Leaf",
+    "classModTier": "None",
+    "playerCount": 4,
+    "armor": "Light",
+    "castingAbility": "Int",
+    "abilityOrder": ["Str", "Dex", "Con", "Int", "Wis", "Cha"],
+    "abilityAdjustments": { "Str": 0, "Dex": 0, "Con": 0, "Int": 0, "Wis": 0, "Cha": 0 },
+    "saveProficiencies": ["Dex", "Int"],
+    "skillProficiencies": ["Stealth", "Perception"],
+    "skillMasteries": ["Stealth"],
+    "skillMasteryRanks": { "Stealth": 1 },
+    "traits": ["abandon-a-friend-3"],
+    "jutsu": ["chakra-hands-1"],
+    "weapons": ["kunai-5"],
+    "customActions": [
+      { "id": "smoke-bomb-test", "name": "Smoke Bomb", "type": "Bonus Action", "detail": "Create a cloud of concealing smoke." }
+    ],
+    "speedAdjustment": 5,
+    "acAdjustment": 1,
+    "hpMultiplier": 1,
+    "chakraMultiplier": 1,
+    "damageReduction": 2,
+    "resistances": "Fire",
+    "immunities": "Poison",
+    "vulnerabilities": "Cold",
+    "senses": "Chakra sight 30 ft",
+    "languages": "Common",
+    "tactics": {
+      "opener": "Hide and deploy insects.",
+      "action": "Use Chakra Hands or Kunai.",
+      "bonus": "Use Smoke Bomb.",
+      "reaction": "Retreat when threatened.",
+      "bloodied": "Break line of sight."
+    },
+    "notes": "Disposable importer verification actor."
+  }
+}
